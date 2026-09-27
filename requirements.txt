@@ -1,0 +1,1 @@
+# Core engine uses 100% Python standard library (zero external dependencies).

@@ -1,0 +1,20 @@
+# PulseGuard Configuration Example
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  database_path: "pulseguard.db"
+
+alerts:
+  # Discord Incoming Webhook
+  discord_webhook: "https://discord.com/api/webhooks/your/webhook/url"
+
+  # Telegram Bot (get bot token from @BotFather, chat_id from @userinfobot)
+  telegram_bot_token: ""
+  telegram_chat_id: ""
+
+  # Slack Webhook
+  slack_webhook: ""
+
+  # Generic JSON Webhook
+  generic_webhook: ""
